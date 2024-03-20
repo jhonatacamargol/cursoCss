@@ -1,0 +1,41 @@
+.letra-italico {
+    font-size: italic;
+}
+.letra-espessura {
+    font-weight: bold;
+}
+.letra-transformada-minuscula {
+    text-transform: lowercase;
+}
+.letra-transformada-maiuscula {
+    text-transform: uppercase;
+}
+.letra-tranformada-capitalizada {
+    text-transform: capitalize;
+}
+.letra-sublinhada {
+    text-decoration: underline;
+}
+.letra-rasurada {
+    text-decoration: line-through;
+}
+.letra-com-linha-superior {
+    text-decoration: overline;
+}
+.letra-decoracao-1 {
+    text-decoration: underline green;
+}
+.letra-decoracao-2 {
+    text-decoration: underline wavy red;
+}
+.letra-decoracao-3 {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+}
+.estilo-de-letra {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    font-size: 22px;
+    text-decoration: line-through underline dashed blueviolet;
+}
