@@ -39,3 +39,18 @@
     font-size: 22px;
     text-decoration: line-through underline dashed blueviolet;
 }
+/************************************************/
+h1 {
+    font-family: Arial;
+}
+.sombra-1 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+}
+.sombra-2 {
+    text-shadow: 3px 3px 3px rgba(255, 0, 155, .7);
+}
+.sombra-3 {
+    text-shadow: 2px 3px 3px rgba(211, 188, 191, .4),
+                 3px 4px 4px rgba(0, 141, 0, .5),
+                 4px 5px 5px rgba(222, 0, 0, .5);
+}
