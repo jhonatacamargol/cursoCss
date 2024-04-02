@@ -1,0 +1,8 @@
+body {
+    padding: 23px;
+}
+p {
+    /*line-height: 30px;*/
+    letter-spacing: 0.05em;
+    word-spacing: 0.5em;
+}
