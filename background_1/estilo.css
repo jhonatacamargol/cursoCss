@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+}
+.container div {
+    width: 400px;
+    height: 600px;
+    box-shadow: inset 0 0 1px black;
+}
+.espaco-1 {
+    background: linear-gradient(to left top, blue, green, yellow);
+}
+.espaco-2 {
+    background: linear-gradient(red 0,orange 25%,
+     yellow 50%, green 75%, blue 100%);
+}
+.espaco-3 {
+    background: linear-gradient(rgb(25,24,23), rgb(188,144,22));
+}
+body {
+    padding: 20px;
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(rgb(71,77,97), rgb(17,18,24));
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
