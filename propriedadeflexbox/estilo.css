@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+}
+div {
+    padding: 20px;
+    width: 25%;
+}
+.child-1 {
+    background-color: rgb(181, 189, 186);
+   /*order: 1;
+    flex-grow: 1;*/
+    flex-shrink: 10;
+}
+.child-2 {
+    background-color: rgb(144, 148, 148);
+    /*order: 2;*/
+}
+.child-3 {
+    background-color: rgb(99, 102, 102);
+    /*flex-grow: 2;*/
+}
+.child-4 {
+    background-color: rgb(78, 82, 82);
+}
