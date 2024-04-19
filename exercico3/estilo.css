@@ -63,3 +63,18 @@ form > div > input {
     text-align: center;
     color: white;
 }
+.login-button:hover {
+    box-shadow: 0 0 4px 0px black;
+    cursor: pointer;
+}
+.not-a-member {
+    text-align: center;
+    margin-top: 40px;
+    color: rgb(77, 77, 77);
+}
+.login-link-signup-now {
+    text-decoration: none;
+    color: rgb(133, 169, 247);
+    font-size: 16px;
+    font-weight: bold;
+}
