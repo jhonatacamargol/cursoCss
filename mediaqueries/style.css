@@ -1,0 +1,9 @@
+.container {
+    text-align: center;
+    margin: 30px;
+}
+@media screen and (max-width: 400px){
+    h1 {
+        color: blue;
+    }
+}

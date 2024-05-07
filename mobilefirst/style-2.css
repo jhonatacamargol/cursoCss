@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+article {
+    padding: 40px;
+}
+
+.visivel-mobile {
+    display: block;
+}
+
+.visivel-tablet {
+    display: none;
+}
+
+.visivel-desktop {
+    display: none;
+}
+
+@media (min-width: 576px) {
+    .visivel-mobile {
+        display: none;
+    }
+
+    .visivel-tablet {
+        display: block;
+    }
+
+    .visivel-desktop {
+        display: none;
+    }
+}
+@media (min-width: 992px) {
+    .visivel-mobile {
+        display: none;
+    }
+
+    .visivel-tablet {
+        display: none;
+    }
+
+    .visivel-desktop {
+        display: block;
+    }
+}
