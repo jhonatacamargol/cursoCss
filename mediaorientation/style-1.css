@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: black;
+}
+h1 {
+    color: lightgray;
+}
+h3 {
+    color: orange;
+}
+p {
+    color: lightblue;
+}
+@media print {
+    body {
+        background-color: white;
+    }
+    h1, h3, p {
+        color: black;
+    }
+}
